@@ -16,8 +16,7 @@ function nextSlide() {
   currentSlide = (currentSlide < slides.children.length - 1) ? currentSlide + 1 : 0;
   slides.style.transform = `translateX(-${currentSlide * 100}%)`;
 }
-
-const imageFolder = 'images/intro_images/';
+const imageFolder = 'images/intro_images/'; // Path to images folder
 const imageList = [
   'IMG_20230731_124154_814.jpg',
   'IMG_20230731_125400_151.jpg',
@@ -28,7 +27,9 @@ const imageList = [
   'IMG_20230929_142013_076.jpg',
   'IMG_20240511_182858_671.jpg'
 ];
-// Dynamically populate the image slider with images from the list
+
+let currentIndex = 0;  // Track the current image
+
 function loadImages() {
   const slider = document.querySelector('.image-slider');
   imageList.forEach(image => {
@@ -39,15 +40,14 @@ function loadImages() {
   });
 }
 
-window.onload = loadImages;
-
-let currentIndex = 0;
-
 function showNextImage() {
   const images = document.querySelectorAll('.image-slider img');
-  images[currentIndex].style.display = 'none';
-  currentIndex = (currentIndex + 1) % images.length;
-  images[currentIndex].style.display = 'block';
+  images[currentIndex].style.display = 'none';  // Hide current image
+  currentIndex = (currentIndex + 1) % images.length;  // Move to the next image
+  images[currentIndex].style.display = 'block';  // Show the next image
 }
 
-setInterval(showNextImage, 3000); // Change image every 3 seconds
+// Slower interval: change image every 6 seconds (6000 ms)
+setInterval(showNextImage, 6000);  // Slows down image switching
+
+window.onload = loadImages;
