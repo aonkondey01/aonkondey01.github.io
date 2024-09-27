@@ -17,7 +17,7 @@ function nextSlide() {
   slides.style.transform = `translateX(-${currentSlide * 100}%)`;
 }
 
-const imageFolder = 'images/intro_images';
+const imageFolder = 'images/intro_images/';
 const imageList = [
   'IMG_20230731_124154_814.jpg',
   'IMG_20230731_125400_151.jpg',
