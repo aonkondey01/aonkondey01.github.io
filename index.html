@@ -1,1 +1,75 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aonkon Dey - Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Intro Section -->
+  <section class="intro" id="intro">
+    <div class="intro-left">
+      <h1>Hi, I'm Aonkon Dey</h1>
+      <p>This is a short introduction about myself. I enjoy coding, working on projects, and exploring new technologies.</p>
+    </div>
+    <div class="intro-right">
+      <div class="image-slider">
+        <img src="images/your_image1.jpg" alt="Image 1">
+        <img src="images/your_image2.jpg" alt="Image 2">
+        <img src="images/your_image3.jpg" alt="Image 3">
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Boxes -->
+  <section class="projects" id="projects">
+    <div class="project-box" onclick="scrollToSection(1)">
+      <h2>Project 1</h2>
+      <p>Short description of project 1.</p>
+    </div>
+    <div class="project-box" onclick="scrollToSection(2)">
+      <h2>Project 2</h2>
+      <p>Short description of project 2.</p>
+    </div>
+    <div class="project-box" onclick="scrollToSection(3)">
+      <h2>Project 3</h2>
+      <p>Short description of project 3.</p>
+    </div>
+    <div class="project-box" onclick="scrollToSection(4)">
+      <h2>Project 4</h2>
+      <p>Short description of project 4.</p>
+    </div>
+  </section>
+
+  <!-- Project Details Sections -->
+  <section class="project-detail" id="project-detail-1">
+    <div class="carousel">
+      <div class="carousel-slide">
+        <div class="slide-content">Project 1 - Slide 1</div>
+        <div class="slide-content">Project 1 - Slide 2</div>
+        <div class="slide-content">Project 1 - Slide 3</div>
+      </div>
+      <button class="prev" onclick="prevSlide()">‹</button>
+      <button class="next" onclick="nextSlide()">›</button>
+    </div>
+  </section>
+
+  <section class="project-detail" id="project-detail-2">
+    <div class="carousel">
+      <div class="carousel-slide">
+        <div class="slide-content">Project 2 - Slide 1</div>
+        <div class="slide-content">Project 2 - Slide 2</div>
+        <div class="slide-content">Project 2 - Slide 3</div>
+      </div>
+      <button class="prev" onclick="prevSlide()">‹</button>
+      <button class="next" onclick="nextSlide()">›</button>
+    </div>
+  </section>
+
+  <!-- Add sections 3 and 4 similarly -->
+
+  <script src="script.js"></script>
+</body>
+</html>
