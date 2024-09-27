@@ -48,6 +48,6 @@ function showNextImage() {
 }
 
 // Slower interval: change image every 6 seconds (6000 ms)
-setInterval(showNextImage, 6000);  // Slows down image switching
+setInterval(showNextImage, 10000);  // Slows down image switching
 
 window.onload = loadImages;
