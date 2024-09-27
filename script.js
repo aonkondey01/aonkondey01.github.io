@@ -16,7 +16,7 @@ function nextSlide() {
   currentSlide = (currentSlide < slides.children.length - 1) ? currentSlide + 1 : 0;
   slides.style.transform = `translateX(-${currentSlide * 100}%)`;
 }
-const imageFolder = 'images/intro_images/'; // Path to images folder
+const imageFolder = 'images/intro_images/';
 const imageList = [
   'IMG_20230731_124154_814.jpg',
   'IMG_20230731_125400_151.jpg',
@@ -28,7 +28,7 @@ const imageList = [
   'IMG_20240511_182858_671.jpg'
 ];
 
-let currentIndex = 0;  // Track the current image
+let currentIndex = 0;
 
 function loadImages() {
   const slider = document.querySelector('.image-slider');
@@ -42,12 +42,12 @@ function loadImages() {
 
 function showNextImage() {
   const images = document.querySelectorAll('.image-slider img');
-  images[currentIndex].style.display = 'none';  // Hide current image
-  currentIndex = (currentIndex + 1) % images.length;  // Move to the next image
-  images[currentIndex].style.display = 'block';  // Show the next image
+  images.forEach((img, index) => img.style.opacity = '0');  // Hide all images
+  currentIndex = (currentIndex + 1) % images.length;
+  images[currentIndex].style.opacity = '1';  // Show the current image
 }
 
-// Slower interval: change image every 6 seconds (6000 ms)
-setInterval(showNextImage, 10000);  // Slows down image switching
+// Slower interval: stay visible for 5 seconds, fade out over 2 seconds
+setInterval(showNextImage, 7000);  // Switch image every 7 seconds, where 5 seconds is full opacity
 
 window.onload = loadImages;
