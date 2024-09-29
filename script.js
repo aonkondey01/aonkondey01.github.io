@@ -30,16 +30,21 @@ const imageList = [
 ];
 
 let currentIndex = 0;
-
 function loadImages() {
   const slider = document.querySelector('.image-slider');
+  if (!slider) {
+    console.error('Image slider not found');
+    return;
+  }
   imageList.forEach(image => {
     const imgElement = document.createElement('img');
     imgElement.src = imageFolder + image;
     imgElement.alt = `Image ${image}`;
     slider.appendChild(imgElement);
+    console.log(`Added image: ${imgElement.src}`);  // Log to ensure images are added
   });
 }
+
 
 function showNextImage() {
   const images = document.querySelectorAll('.image-slider img');
