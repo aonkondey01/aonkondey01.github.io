@@ -93,26 +93,19 @@ h1 {
 }
 
 /* Image Slider Container */
-.image-slider {
-  width: 50%;  /* Fill half the screen */
-  height: 100vh; /* Make the images fit the full height */
-  position: relative;
-  overflow: hidden;
-}
-
-/* Images inside the slider */
 .image-slider img {
   width: 100%;
-  height: 100%;
+  height: auto;
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0;
-  transition: opacity 2s ease-in-out;  /* Smooth transition between images */
+  transition: opacity 2s ease-in-out;
 }
 
 .image-slider img:first-child {
   opacity: 1;
 }
+
 
 /* No filters, no opacity applied */
