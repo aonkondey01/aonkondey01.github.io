@@ -93,19 +93,21 @@ h1 {
 }
 
 /* Image Slider Container */
+.image-slider {
+  width: 100%;  /* Full width of the container */
+  height: 500px; /* Increase the height to make the images larger */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Images inside the slider */
 .image-slider img {
-  width: 20%;
-  height: 50%;
+  width: 100%;  /* Stretch to fill the container */
+  height: auto;  /* Adjust height proportionally */
+  display: none; /* Hide all images initially */
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0;
-  transition: opacity 2s ease-in-out;
 }
-
-.image-slider img:first-child {
-  opacity: 1;
-}
-
 
 /* No filters, no opacity applied */
