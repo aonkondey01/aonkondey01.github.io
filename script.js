@@ -29,7 +29,11 @@ const imageList = [
   'img8.jpg',
   'img9.jpg',
   'img10.jpg',
-  'img111jpg'
+  'img11.jpg',
+  'img12.jpg',
+  'img13.jpg',
+  'img14.jpg',
+  'img15.jpg'
 ];
 
 let currentIndex = 0;
