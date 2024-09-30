@@ -5,8 +5,51 @@ body {
   box-sizing: border-box;
 }
 
+
 section {
   padding: 50px;
+}
+
+/* Global font settings */
+body {
+  font-family: Arial, sans-serif; /* You can change this to any font */
+}
+
+/* Default styles for intro text */
+.intro-text {
+  font-size: 1.5rem;  /* Base size */
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Custom styles without bold */
+.no-bold {
+  font-weight: normal;  /* Not bold */
+}
+
+/* Custom styles with orange color */
+.orange-text {
+  color: rgb(13, 0, 255);
+}
+
+/* Larger text */
+.large-text {
+  font-size: 2rem;
+}
+
+/* Smaller text */
+.small-text {
+  font-size: 1rem;
+}
+
+/* Custom font example */
+.custom-font {
+  font-family: 'Courier New', Courier, monospace;  /* Example custom font */
+}
+
+/* Centered text */
+.center-text {
+  text-align: center;
 }
 
 .intro {
