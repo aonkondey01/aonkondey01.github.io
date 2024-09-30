@@ -19,14 +19,17 @@ function nextSlide() {
 // images on the right
 const imageFolder = 'images/intro_images/'; // Make sure this path is correct
 const imageList = [
-  'IMG_20230731_124154_814.jpg',
-  'IMG_20230731_125400_151.jpg',
-  'IMG_20230929_142012_752.jpg',
-  'IMG_20230929_143300_768.jpg',
-  'IMG_20230731_124154_982.jpg',
-  'IMG_20230929_142012_112.jpg',
-  'IMG_20230929_142013_076.jpg',
-  'IMG_20240511_182858_671.jpg'
+  'img1.jpg',
+  'img2.jpg',
+  'img3.jpg',
+  'img4.jpg',
+  'img5.jpg',
+  'img6.jpg',
+  'img7.jpg',
+  'img8.jpg',
+  'img9.jpg',
+  'img10.jpg',
+  'img111jpg'
 ];
 
 let currentIndex = 0;
