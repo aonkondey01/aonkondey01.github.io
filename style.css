@@ -162,3 +162,9 @@ h1 {
 .image-slider img:first-child {
   opacity: 1; /* Ensure the first image is shown on load */
 }
+
+.full-width-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
