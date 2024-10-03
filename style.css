@@ -86,10 +86,11 @@ h1 {
 .projects {
   display: flex;
   justify-content: space-around;
+  background-color: #72abe9
 }
 
 .project-box {
-  width: 250px; /* Same width for all boxes */
+  width: 400px; /* Same width for all boxes */
   min-height: 200px; /* Set a reasonable minimum height */
   background-color: #f0f0f0; /* Light background color */
   border: 2px solid black;
@@ -99,7 +100,7 @@ h1 {
   align-items: center;
   text-align: center;
   padding: 20px;
-  margin: 20px; /* Add space between the boxes */
+  margin: 5px; /* Add space between the boxes */
   box-sizing: border-box;
   position: relative; /* For overlaying hidden text */
   cursor: pointer;
@@ -109,7 +110,6 @@ h1 {
 
 .project-box:hover {
   transform: scale(2);
-  background-color: #72abe9
 }
 
 .project-box .description {
