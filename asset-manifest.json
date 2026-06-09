@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9997784b.css",
+    "main.js": "/static/js/main.27275dac.js",
+    "static/js/488.dbfa754b.chunk.js": "/static/js/488.dbfa754b.chunk.js",
+    "static/media/tumor_immunology.jpg": "/static/media/tumor_immunology.d5247c4ffb617876c731.jpg",
+    "static/media/img2.jpg": "/static/media/img2.3c3fa33a6b33c7c408be.jpg",
+    "static/media/CART.jpg": "/static/media/CART.bbb67b6d460a899740f7.jpg",
+    "static/media/TIM3.jpg": "/static/media/TIM3.d2eb9146029273a1feca.jpg",
+    "static/media/MHC.jpg": "/static/media/MHC.bc1147f62b927c24545a.jpg",
+    "static/media/img12.jpg": "/static/media/img12.342cac1b1b6fb4158d11.jpg",
+    "static/media/img5.jpg": "/static/media/img5.dce0c68cdaa47607502d.jpg",
+    "static/media/img11.jpg": "/static/media/img11.91cd1fc0301f644ae419.jpg",
+    "static/media/img8.jpg": "/static/media/img8.0245f2f59fceebd0c7ae.jpg",
+    "static/media/img4.jpg": "/static/media/img4.5ad3391dacd25cf98919.jpg",
+    "static/media/img7.jpg": "/static/media/img7.ee234bfd60915aaa94b3.jpg",
+    "static/media/img9.jpg": "/static/media/img9.96e2ae2ff2a8598af41c.jpg",
+    "static/media/img10.jpg": "/static/media/img10.79fe64a807b9ff8476b0.jpg",
+    "static/media/img1.jpg": "/static/media/img1.a817153191270d4f8438.jpg",
+    "static/media/img3.jpg": "/static/media/img3.1cdf0c664f36fc10e0f9.jpg",
+    "static/media/img6.jpg": "/static/media/img6.1078617271a73b6e9ad8.jpg",
+    "index.html": "/index.html",
+    "main.9997784b.css.map": "/static/css/main.9997784b.css.map",
+    "main.27275dac.js.map": "/static/js/main.27275dac.js.map",
+    "488.dbfa754b.chunk.js.map": "/static/js/488.dbfa754b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9997784b.css",
+    "static/js/main.27275dac.js"
+  ]
+}
